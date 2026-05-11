@@ -46,3 +46,9 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+
+# Vite cache
+frontend/.vite/
+
+# Patch files
+*.patch
