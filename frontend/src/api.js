@@ -24,10 +24,16 @@ const api = {
   getCarpoolRecommendation: (days = 7) => client.get('/api/calendar/carpool', { params: { days } }),
 
   // NASCAR
+  getNascarTracks: () => client.get('/api/nascar/tracks'),
+  getNascarUpcoming: () => client.get('/api/nascar/upcoming'),
+  getNascarLineups: () => client.get('/api/nascar/upcoming/lineups'),
+  getNascarAnalysis: () => client.get('/api/nascar/upcoming/analysis'),
+  putNascarLineups: (data) => client.put('/api/nascar/upcoming/lineups', data),
+  putNascarAnalysis: (data) => client.put('/api/nascar/upcoming/analysis', data),
   getNascarTrackHistory: (track = 'Watkins Glen') => client.get('/api/nascar/track-history', { params: { track } }),
   getNascarHistoryByYear: (year) => client.get(`/api/nascar/track-history/by-year/${year}`),
-  getNascarDriverTrends: (minRaces = 3) => client.get('/api/nascar/driver-trends', { params: { min_races: minRaces } }),
-  getNascarRaceYears: () => client.get('/api/nascar/race-years'),
+  getNascarDriverTrends: (minRaces = 1, track) => client.get('/api/nascar/driver-trends', { params: { min_races: minRaces, track } }),
+  getNascarRaceYears: (track) => client.get('/api/nascar/race-years', { params: { track } }),
 };
 
 export default api;
