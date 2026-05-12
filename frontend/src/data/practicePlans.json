@@ -1,3 +1,111 @@
 {
-  "plans": []
+  "plans": [
+    {
+      "id": "2026-05-12-fielding-focus",
+      "title": "Fielding Focus — Station Night",
+      "date": "2026-05-12",
+      "durationMin": 90,
+      "focusAreas": ["Ground Balls", "Fly Balls", "Infield Stations", "2B/SS Double Plays"],
+      "summary": "Station-based fielding practice with warm-up competition, 3 simultaneous drill stations, team situational defense, and a hitting block to close.",
+      "notes": "3 coaches running simultaneous stations. Players rotate every 10 minutes through 2 infield stations and 1 outfield station.",
+      "blocks": [
+        {
+          "timeLabel": "0:00 – 0:05",
+          "activity": "Dynamic Warm-Up",
+          "durationMin": 5,
+          "details": "Full team on the outfield grass. Jog, high knees, butt kicks, shuffles, arm circles, torso twists, wrist/finger stretches.",
+          "drillLinks": [
+            { "url": "https://www.youtube.com/watch?v=ljYiuTdErds", "label": "Youth Baseball Practice Warm-Up Routine" },
+            { "url": "https://www.youtube.com/watch?v=2NLNCc06X_8", "label": "5 Dynamic Stretches for Baseball Warmup" }
+          ],
+          "coachingPoints": [
+            "Keep it controlled — this isn't a race",
+            "Big arm circles forward and backward, 10 each direction",
+            "Finish with wrist circles and finger stretches"
+          ]
+        },
+        {
+          "timeLabel": "0:05 – 0:15",
+          "activity": "Throwing Competition — Fewest Passed Balls",
+          "durationMin": 10,
+          "details": "Partner catch starting at 30 ft, backing up to 60 ft then 90 ft. Competition: track passed balls and errant throws per pair. Pair with fewest errors wins. Keeps reps sharp and competitive.",
+          "drillLinks": [
+            { "url": "https://www.youtube.com/watch?v=LtzwCrthlTY", "label": "Youth Baseball: Simple Throwing Progressions" },
+            { "url": "https://www.youtube.com/watch?v=jy0UwFdlw9M", "label": "A Throwing Routine For All Youth Baseball Players" }
+          ],
+          "coachingPoints": [
+            "Four-seam grip on every throw",
+            "Step toward your target — don't just arm it",
+            "Follow through: throwing hand finishes near the opposite hip",
+            "Scorekeeping: each dropped ball or throw that bounces before your partner counts as 1 point (low score wins)"
+          ]
+        },
+        {
+          "timeLabel": "0:15 – 0:45",
+          "activity": "Station Rotation — 3 Simultaneous Stations (10 min each, rotate twice)",
+          "durationMin": 30,
+          "details": "Split players into 3 groups. Each coach runs one station. Groups rotate every 10 minutes so everyone hits all 3 stations.\n\n📍 STATION 1 — Infield: Ground Ball Fundamentals (Coach 1)\nFocus on athletic ready position, approaching the ball, and funneling with two hands. Mix in straight-on, forehand, and slow roller reps.\n\n📍 STATION 2 — Infield: Backhand Ground Ball Drill (Coach 2)\nFocus exclusively on balls to the throwing-hand side. Crossover step, glove angle (fingers down), field off the right foot, quick throw.\n\n📍 STATION 3 — Outfield: Drop Step Fly Ball Drill (Coach 3)\nCoach calls L/R or signals deep. Player drop steps, tracks ball over the shoulder, catches while moving forward. Finish with a crow hop throw back.",
+          "drillLinks": [
+            { "url": "https://www.youtube.com/watch?v=OTP9eUBsqmk", "label": "Station 1: How to Field a Ground Ball in 3 Easy Steps" },
+            { "url": "https://www.youtube.com/watch?v=EZtJ9JNPE2k", "label": "Station 1: 3 Simple Baseball Fielding Drills for Youth Players" },
+            { "url": "https://www.youtube.com/watch?v=KNqvyewC4Lo", "label": "Station 2: How To Field a Ground Ball Backhand" },
+            { "url": "https://www.youtube.com/watch?v=Ge41_ewiSWk", "label": "Station 2: Forehand & Backhand Athleticism" },
+            { "url": "https://www.youtube.com/watch?v=ZMuVnmUY2CI", "label": "Station 3: 3 Great Outfield Drills for Youth Players" },
+            { "url": "https://www.youtube.com/watch?v=WUIM8NqNETg", "label": "Station 3: Outfield Drills You MUST Be Doing!" }
+          ],
+          "coachingPoints": [
+            "Station 1: Field out front, funnel to the belly button, two hands when possible",
+            "Station 2: Crossover first — don't reach. Fingers DOWN on the backhand.",
+            "Station 3: Drop step immediately — no backpedaling. Call the ball every rep.",
+            "Rotate on coach's whistle. Reset and be ready before the next rep comes."
+          ]
+        },
+        {
+          "timeLabel": "0:45 – 1:00",
+          "activity": "Team Fielding — Game-Like Situational Defense",
+          "durationMin": 15,
+          "details": "Full defense on the field. Coach announces the situation and hits fungoes. Place 1-2 base runners. Defense must communicate, make the correct play, and back each other up — just like a real game. Mix in cutoffs, relay reads, and force plays.",
+          "drillLinks": [
+            { "url": "https://www.youtube.com/watch?v=sf1Od2dsv2A", "label": "Game-Like Drills for Efficient Baseball Practice" }
+          ],
+          "coachingPoints": [
+            "Everyone has a job on every play — no spectators",
+            "Talk before the pitch: 'Where am I going with this ball?'",
+            "Back-up responsibilities matter as much as the primary play",
+            "Reset after each play — don't carry a mistake into the next one"
+          ]
+        },
+        {
+          "timeLabel": "1:00 – 1:30",
+          "activity": "Hitting Block",
+          "durationMin": 30,
+          "details": "Coach pitches from flat ground or short mound. Rotate batters every 5-6 pitches. Fielders in the field making live plays on balls in play. Suggested round structure: Round 1 — hit it where it's pitched; Round 2 — opposite field focus; Round 3 — situational (runner on 3rd, less than 2 outs — get the run in).",
+          "drillLinks": [],
+          "coachingPoints": [
+            "Keep the fielders engaged — they're taking reps too",
+            "Situational round: if they pull an opposite-field pitch, that's a win too — process over result",
+            "Keep the line moving, minimize standing around"
+          ]
+        },
+        {
+          "timeLabel": "1:30 – 1:45 (OPTIONAL)",
+          "activity": "Position Group: 2B & SS — Double Play Work",
+          "durationMin": 15,
+          "details": "2B and SS stay after while others are dismissed. Focus exclusively on double play feeds and pivots. Coach hits ground balls to third or first; middle infielders work the feed to second and relay to first. Alternate who covers the bag.",
+          "drillLinks": [
+            { "url": "https://www.youtube.com/watch?v=5YKs4-5Gbgk", "label": "How to Turn a Double Play — 3 Steps for Youth Players" },
+            { "url": "https://www.youtube.com/watch?v=4aWrAxBqd7g", "label": "Double Play Drills with Bill Ripken" },
+            { "url": "https://www.youtube.com/watch?v=F0MwVYtimb8", "label": "Double Play Infield Tips and Drills (Antonelli Baseball)" }
+          ],
+          "coachingPoints": [
+            "Get to the bag EARLY — you need to be set before the throw arrives",
+            "Inside pivot (ball from 3B side): catch, drag the bag, throw",
+            "Outside pivot (ball from 1B side): catch, step around, throw",
+            "Short, quick throw to first — no wind-up. Get rid of it."
+          ]
+        }
+      ],
+      "coachNotes": "3 coaches needed for station rotation (0:15-0:45). Assign your most experienced coach to Station 2 (backhand) — it needs the most technical feedback. After practice, only need 1 coach to stay for the 2B/SS optional block."
+    }
+  ]
 }
