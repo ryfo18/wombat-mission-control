@@ -9,10 +9,6 @@ import NASCARTracks from './pages/NASCARTracks';
 import NASCARLineups from './pages/NASCARLineups';
 import NASCARAnalysis from './pages/NASCARAnalysis';
 import NASCAR from './pages/NASCAR';
-import Baseball from './pages/baseball/Baseball';
-import BaseballPositionDrills from './pages/baseball/BaseballPositionDrills';
-import BaseballTeamDrills from './pages/baseball/BaseballTeamDrills';
-import BaseballPracticePlans from './pages/baseball/BaseballPracticePlans';
 import './App.css';
 
 function App() {
@@ -31,12 +27,6 @@ function App() {
             <Route path="/nascar/lineups" element={<NASCARLineups />} />
             <Route path="/nascar/analysis" element={<NASCARAnalysis />} />
             <Route path="/nascar/track/:track" element={<NASCAR />} />
-            <Route path="/baseball" element={<Baseball />} />
-            <Route path="/baseball/position-drills" element={<BaseballPositionDrills />} />
-            <Route path="/baseball/team-drills" element={<BaseballTeamDrills />} />
-            <Route path="/baseball/practice-plans" element={<BaseballPracticePlans />} />
-            <Route path="/baseball/practice-plans/:id" element={<BaseballPracticePlans />} />
-            <Route path="/baseball/*" element={<Baseball />} />
             <Route path="*" element={<Navigate to="/calendar" replace />} />
           </Routes>
         </div>

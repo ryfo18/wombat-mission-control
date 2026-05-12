@@ -1,80 +1,71 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import catalog from '../../data/drillCatalog.json';
+
+function TeamDrillCard({ drill }) {
+  const [open, setOpen] = useState(false);
+  return (
+    <div className="bg-slate-800 rounded-lg p-5 flex flex-col gap-3">
+      <div className="flex items-start justify-between gap-4">
+        <div>
+          <h3 className="font-semibold text-base text-white">{drill.name}</h3>
+          <p className="text-sm text-slate-400 mt-1">{drill.description}</p>
+        </div>
+        <span className="text-xs text-slate-500 shrink-0">{drill.durationMin} min</span>
+      </div>
+      <button
+        className="text-sm text-indigo-400 hover:text-indigo-300 text-left"
+        onClick={() => setOpen(o => !o)}
+      >
+        {open ? '▲ Hide details' : '▼ Show details'}
+      </button>
+      {open && (
+        <div className="space-y-3 text-sm text-slate-300">
+          <div>
+            <span className="font-medium text-slate-200">Setup: </span>
+            {drill.setup}
+          </div>
+          {drill.coachingPoints?.length > 0 && (
+            <div>
+              <span className="font-medium text-slate-200">Coaching Points:</span>
+              <ul className="list-disc list-inside mt-1 space-y-1 text-slate-400">
+                {drill.coachingPoints.map((pt, i) => <li key={i}>{pt}</li>)}
+              </ul>
+            </div>
+          )}
+          {drill.links?.length > 0 && (
+            <div>
+              <span className="font-medium text-slate-200">Links:</span>
+              <ul className="mt-1 space-y-1">
+                {drill.links.map((link, i) => (
+                  <li key={i}>
+                    <a href={link.url} target="_blank" rel="noopener noreferrer" className="text-indigo-400 hover:underline">
+                      🎬 {link.label}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+        </div>
+      )}
+    </div>
+  );
+}
 
 const BaseballTeamDrills = () => {
-  // Example data - in a real app, this might come from an API or markdown files
-  const teamDrills = [
-    {
-      name: 'Relay Race',
-      description: 'Teams compete to relay a ball from outfield to infield to home plate, emphasizing quick transfers and accurate throws.',
-      setup: 'Split team into two lines: one in outfield, one in infield. First outfielder fields a ball, throws to first infielder, who relays to second infielder, then to catcher at home.',
-      variations: [
-        'Add a tag at each base for extra challenge',
-        'Use different types of hits (ground balls, fly balls)',
-        'Time each team and compete for best time'
-      ]
-    },
-    {
-      name: 'Situational Defense',
-      description: 'Coach hits balls to different spots with runners on base; players must make the correct play based on the situation.',
-      setup: 'Place runners on various bases. Coach hits fungoes and calls out the situation (e.g., "Runner on first, less than two outs"). Players react accordingly.',
-      variations: [
-        'Start with no runners, then add runners',
-        'Include bunt defense situations',
-        'Add score and inning context for game-like pressure'
-      ]
-    },
-    {
-      name: 'Pitcher Fielding Practice (PFP)',
-      description: 'Pitchers practice fielding bunts, comebacks, and covering bases after pitching.',
-      setup: 'Pitchers take turns pitching from mound, then immediately field a bunted ball or comebacker and make the appropriate throw.',
-      variations: [
-        'Include covering first base on ground balls to the right',
-        'Practice fielding bunts to third and first base',
-        'Add comebacker with runner stealing second'
-      ]
-    },
-    {
-      name: 'Outfield Communication',
-      description: 'Outfielders practice calling for fly balls and backing each other up.',
-      setup: 'Two outfielders start at their positions. Coach hits fly balls between them, forcing communication and backup.',
-      variations: [
-        'Add sun or wind factors (imaginary)',
-        'Include fence awareness drills',
-        'Add runner tagging up on fly balls'
-      ]
-    }
-  ];
-
+  const teamDrills = catalog.drills.filter(d => d.category === 'team');
   return (
-    <div className="space-y-8">
-      <h2 className="text-2xl font-bold">👥 Team Drills</h2>
-      <p className="text-slate-400">
-        Full-team exercises that work on communication, situational play, and conditioning.
+    <div className="space-y-6">
+      <div className="flex items-center justify-between">
+        <h2 className="text-2xl font-bold">👥 Team Drills</h2>
+        <Link to="/baseball" className="text-sm text-indigo-400 hover:text-indigo-300">← Back</Link>
+      </div>
+      <p className="text-slate-400 text-sm">
+        Full-team exercises covering cutoffs, relays, double plays, communication, and situational defense.
       </p>
-      {teamDrills.map((drill) => (
-        <div key={drill.name} className="bg-slate-800 rounded-lg p-6">
-          <h3 className="font-semibold text-lg mb-4">{drill.name}</h3>
-          <div className="space-y-4">
-            <p className="text-slate-400"><strong>Description:</strong> {drill.description}</p>
-            <p className="text-slate-400"><strong>Setup:</strong> {drill.setup}</p>
-            {drill.variations && (
-              <div className="mt-4">
-                <p className="font-medium text-slate-300">Variations:</p>
-                <ul className="list-disc list-inside mt-2 text-slate-400 space-y-1">
-                  {drill.variations.map((variation, index) => (
-                    <li key={index}>{variation}</li>
-                  ))}
-                </ul>
-              </div>
-            )}
-          </div>
-        </div>
-      ))}
-      <div className="mt-8 text-center">
-        <Link to="/baseball" className="px-4 py-2 bg-indigo-600 text-white rounded-md hover:bg-indigo-700">
-          ← Back to Baseball
-        </Link>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        {teamDrills.map(d => <TeamDrillCard key={d.id} drill={d} />)}
       </div>
     </div>
   );
