@@ -4,7 +4,9 @@ import { NavLink, useLocation } from 'react-router-dom';
 const Sidebar = () => {
   const location = useLocation();
   const onNascar = location.pathname.startsWith('/nascar');
+  const onBaseball = location.pathname.startsWith('/baseball');
   const [nascarOpen, setNascarOpen] = useState(onNascar);
+  const [baseballOpen, setBaseballOpen] = useState(onBaseball);
 
   return (
     <aside className="fixed top-0 left-0 h-screen w-64 bg-slate-900 border-r border-slate-800">
@@ -53,6 +55,71 @@ const Sidebar = () => {
           >
             📖 Scripture
           </NavLink>
+          {/* Baseball with dropdown */}
+          <div>
+            <button
+              onClick={() => setBaseballOpen(o => !o)}
+              className={`w-full flex items-center justify-between px-3 py-2 rounded-md text-sm font-medium ${
+                onBaseball ? 'bg-indigo-600 text-white' : 'text-slate-300 hover:bg-slate-800 hover:text-white'
+              }`}
+            >
+              <span>⚾ Baseball</span>
+              <span className="text-xs">{baseballOpen ? '▾' : '▸'}</span>
+            </button>
+            {baseballOpen && (
+              <div className="ml-4 mt-1 space-y-1">
+                <NavLink
+                  to="/baseball"
+                  end
+                  className={() =>
+                    `block px-3 py-1.5 rounded-md text-xs font-medium ${
+                      location.pathname === '/baseball'
+                        ? 'text-indigo-300 bg-indigo-900/30'
+                        : 'text-slate-400 hover:bg-slate-800 hover:text-white'
+                    }`
+                  }
+                >
+                  🏠 Hub
+                </NavLink>
+                <NavLink
+                  to="/baseball/practice-plans"
+                  className={() =>
+                    `block px-3 py-1.5 rounded-md text-xs font-medium ${
+                      location.pathname.startsWith('/baseball/practice-plans')
+                        ? 'text-indigo-300 bg-indigo-900/30'
+                        : 'text-slate-400 hover:bg-slate-800 hover:text-white'
+                    }`
+                  }
+                >
+                  🗓️ Practice Plans
+                </NavLink>
+                <NavLink
+                  to="/baseball/position-drills"
+                  className={() =>
+                    `block px-3 py-1.5 rounded-md text-xs font-medium ${
+                      location.pathname === '/baseball/position-drills'
+                        ? 'text-indigo-300 bg-indigo-900/30'
+                        : 'text-slate-400 hover:bg-slate-800 hover:text-white'
+                    }`
+                  }
+                >
+                  🧤 Drill Catalog
+                </NavLink>
+                <NavLink
+                  to="/baseball/team-drills"
+                  className={() =>
+                    `block px-3 py-1.5 rounded-md text-xs font-medium ${
+                      location.pathname === '/baseball/team-drills'
+                        ? 'text-indigo-300 bg-indigo-900/30'
+                        : 'text-slate-400 hover:bg-slate-800 hover:text-white'
+                    }`
+                  }
+                >
+                  👥 Team Drills
+                </NavLink>
+              </div>
+            )}
+          </div>
           {/* NASCAR DK with dropdown */}
           <div>
             <button
