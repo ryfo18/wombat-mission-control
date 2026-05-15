@@ -1,0 +1,671 @@
+{
+  "drills": [
+    {
+      "id": "warmup-dynamic",
+      "name": "Dynamic Warm-Up Routine",
+      "category": "warm-up",
+      "subcategory": "warm-up",
+      "format": "full-team",
+      "durationMin": 10,
+      "players": "all",
+      "description": "A full-team dynamic warm-up combining light movement, arm stretches, and activation exercises to get players ready to throw and field.",
+      "setup": "Players line up in two lines on the outfield grass. Lead through jog, high knees, butt kicks, shuffles, arm circles, and torso twists.",
+      "coachingPoints": [
+        "Keep movements controlled — this isn't a race",
+        "Big arm circles forward and backward, at least 10 each direction",
+        "Finish with wrist circles and finger stretches"
+      ],
+      "links": [
+        { "type": "youtube", "url": "https://www.youtube.com/watch?v=ljYiuTdErds", "label": "Youth Baseball Practice Warm-Up Routine" },
+        { "type": "youtube", "url": "https://www.youtube.com/watch?v=2NLNCc06X_8", "label": "5 Dynamic Stretches for Baseball Warmup" }
+      ],
+      "equipment": ["none"],
+      "tags": ["warm-up", "team", "routine"]
+    },
+    {
+      "id": "warmup-partner-throws",
+      "name": "Partner Throwing Progression",
+      "category": "warm-up",
+      "subcategory": "throwing",
+      "format": "pairs",
+      "durationMin": 10,
+      "players": "all",
+      "description": "Partners start close (30 ft) and gradually work back to 90 ft, focusing on proper grip, arm path, and follow-through before any fielding work.",
+      "setup": "Pair players up. Start at 30 ft, throw for 2 min, back up to 60 ft for 2 min, back to 90 ft for remaining time. Rotate in any extras.",
+      "coachingPoints": [
+        "Four-seam grip on every throw",
+        "Step toward your target — don't just arm it",
+        "Follow through: throwing hand should finish near opposite hip",
+        "Catch with two hands when possible"
+      ],
+      "links": [
+        { "type": "youtube", "url": "https://www.youtube.com/watch?v=LtzwCrthlTY", "label": "Youth Baseball: Simple Throwing Progressions" },
+        { "type": "youtube", "url": "https://www.youtube.com/watch?v=jy0UwFdlw9M", "label": "A Throwing Routine For All Youth Baseball Players" }
+      ],
+      "equipment": ["balls", "gloves"],
+      "tags": ["warm-up", "throwing", "pairs"]
+    },
+    {
+      "id": "throwing-mechanics",
+      "name": "Throwing Mechanics Drill",
+      "category": "throwing",
+      "subcategory": "mechanics",
+      "format": "pairs",
+      "durationMin": 10,
+      "players": "all",
+      "description": "Breaks down the throwing motion into phases: grip, arm path, hip rotation, and follow-through. Excellent for players who rush or short-arm their throws.",
+      "setup": "Players pair up at 45 ft. Walk through each phase slowly before putting it all together at game speed.",
+      "coachingPoints": [
+        "Wrist snap is the last thing that fires — don't skip it",
+        "Elbow should stay at or above shoulder height at release",
+        "Hip turn drives the throw; don't throw with just the arm",
+        "Back foot should come off the ground on follow-through"
+      ],
+      "links": [
+        { "type": "youtube", "url": "https://www.youtube.com/watch?v=d3QApCrFm5k", "label": "Baseball Throwing Drills Youth Players MUST Be Doing" },
+        { "type": "youtube", "url": "https://www.youtube.com/watch?v=CWnCj1_lTHQ", "label": "Youth Baseball Throwing Progression That Builds Athleticism" }
+      ],
+      "equipment": ["balls", "gloves"],
+      "tags": ["throwing", "mechanics", "pairs"]
+    },
+    {
+      "id": "fielding-ground-ball-basics",
+      "name": "Ground Ball Fundamentals (3-Step Method)",
+      "category": "fielding",
+      "subcategory": "ground-balls",
+      "format": "station",
+      "durationMin": 10,
+      "players": "infield",
+      "description": "Teaches the three fundamentals of fielding a ground ball: athletic ready position, approaching the ball (charge or wait), and fielding out front with soft hands.",
+      "setup": "Line players at short or third. Coach rolls or hits ground balls to each player. Rotate every 5-6 reps.",
+      "coachingPoints": [
+        "Feet shoulder-width apart in ready position — stay on the balls of your feet",
+        "Field the ball out in front of your body, not underneath you",
+        "Funnel the ball toward your belly button with two hands",
+        "Eyes through the ball — watch it all the way into the glove"
+      ],
+      "links": [
+        { "type": "youtube", "url": "https://www.youtube.com/watch?v=OTP9eUBsqmk", "label": "How to Field a Ground Ball in 3 Easy Steps" },
+        { "type": "youtube", "url": "https://www.youtube.com/watch?v=EZtJ9JNPE2k", "label": "3 Simple Baseball Fielding Drills for Youth Players" }
+      ],
+      "equipment": ["balls", "gloves", "fungo bat"],
+      "tags": ["fielding", "ground-balls", "infield", "fundamentals"]
+    },
+    {
+      "id": "fielding-short-hop",
+      "name": "Short Hop Showdown",
+      "category": "fielding",
+      "subcategory": "ground-balls",
+      "format": "pairs",
+      "durationMin": 8,
+      "players": "infield",
+      "description": "Players partner up and take turns throwing short hops at each other from 20 ft. Develops soft hands and teaches players to stay low and committed on difficult hops.",
+      "setup": "Partners face each other at 20-25 ft. One player bounces the ball just in front of the fielder, forcing them to field a short hop. Switch roles every 10 reps.",
+      "coachingPoints": [
+        "Get low — bend at the knees, not the waist",
+        "Soft hands: let the ball come to you, absorb it",
+        "Don't stab or swipe — stay patient",
+        "Keep your glove below the ball and let it come up into your glove"
+      ],
+      "links": [
+        { "type": "youtube", "url": "https://www.youtube.com/watch?v=X9C52lE4M6Y", "label": "Fun Youth Baseball Drills (Short Hop Showdown at 3:32)" }
+      ],
+      "equipment": ["balls", "gloves"],
+      "tags": ["fielding", "ground-balls", "infield", "short-hop"]
+    },
+    {
+      "id": "fielding-four-cone",
+      "name": "Four Cone Ground Ball Drill",
+      "category": "fielding",
+      "subcategory": "ground-balls",
+      "format": "station",
+      "durationMin": 10,
+      "players": "infield",
+      "description": "Uses four cones in a square to force players to move laterally and charge ground balls from different angles, simulating real game situations.",
+      "setup": "Set four cones in a 10-foot square. Player starts at center. Coach rolls balls to different corners forcing the player to move, field, and reset.",
+      "coachingPoints": [
+        "Move your feet first, then get your glove down",
+        "Always reset to center after each rep",
+        "Stay low through the entire fielding motion — don't stand up early",
+        "Quick feet on the lateral move, slow down as you approach the ball"
+      ],
+      "links": [
+        { "type": "youtube", "url": "https://www.youtube.com/watch?v=fSTmvPm_77I", "label": "Practice Fielding Ground Balls With Four Cones | Little League" }
+      ],
+      "equipment": ["balls", "gloves", "cones"],
+      "tags": ["fielding", "ground-balls", "infield", "footwork", "lateral"]
+    },
+    {
+      "id": "fielding-alligator-traps",
+      "name": "Alligator Traps",
+      "category": "fielding",
+      "subcategory": "ground-balls",
+      "format": "station",
+      "durationMin": 8,
+      "players": "infield",
+      "description": "Players practice snapping down on the ball with their glove like an alligator's jaw — a fun drill that prevents the classic 'flip-up' glove error on slow rollers.",
+      "setup": "Coach rolls slow balls toward fielder. Player approaches, gets glove flat, and snaps down on the ball. Works great as a station alongside other fielding reps.",
+      "coachingPoints": [
+        "Glove starts flat on the grass, palm up — waiting for the ball",
+        "Snap the glove closed around the ball, don't scoop",
+        "This eliminates the habit of flipping the glove open-palm-up and praying",
+        "Great for slow rollers and bunts"
+      ],
+      "links": [
+        { "type": "youtube", "url": "https://www.youtube.com/watch?v=X9C52lE4M6Y", "label": "Fun Youth Baseball Drills (Alligator Traps at :06)" }
+      ],
+      "equipment": ["balls", "gloves"],
+      "tags": ["fielding", "ground-balls", "infield", "slow-rollers"]
+    },
+    {
+      "id": "fielding-fly-ball-drop-step",
+      "name": "Drop Step Fly Ball Drill",
+      "category": "fielding",
+      "subcategory": "fly-balls",
+      "format": "station",
+      "durationMin": 10,
+      "players": "outfield",
+      "description": "Teaches outfielders the proper drop step to get a jump on balls hit over their head. One of the most critical skills for outfield development.",
+      "setup": "Coach stands 60-80 ft in front of two outfielders positioned side by side. Coach calls 'L' or 'R' or throws arms back indicating a deep fly ball. Player drop steps and sprints to spot before ball arrives.",
+      "coachingPoints": [
+        "Drop step FIRST — turn your hips and go, don't backpedal",
+        "Get to the spot early: catch the ball while moving forward if possible",
+        "Track the ball over your throwing shoulder, not straight back",
+        "Call for it — 'I got it! I got it!' on every ball"
+      ],
+      "links": [
+        { "type": "youtube", "url": "https://www.youtube.com/watch?v=ZMuVnmUY2CI", "label": "3 Great Baseball Outfield Drills for Youth Players" },
+        { "type": "youtube", "url": "https://www.youtube.com/watch?v=WUIM8NqNETg", "label": "Baseball Outfield Drills You MUST Be Doing!" }
+      ],
+      "equipment": ["balls", "gloves"],
+      "tags": ["fielding", "fly-balls", "outfield", "drop-step"]
+    },
+    {
+      "id": "fielding-fly-ball-routine",
+      "name": "Fly Ball Catching Progression",
+      "category": "fielding",
+      "subcategory": "fly-balls",
+      "format": "station",
+      "durationMin": 10,
+      "players": "all",
+      "description": "A three-step progression for catching fly balls: track, position (glove above eyes, elbow bent), and catch with two hands on routine balls. Great for infielders who struggle with pop-ups too.",
+      "setup": "Coach hits or tosses fly balls from varying distances. Start with easy straight-up flies, progress to balls that require movement.",
+      "coachingPoints": [
+        "Get your body behind the ball whenever possible",
+        "Catch at eye-level or above — not at your waist",
+        "Two hands for routine fly balls: bare hand guides the throw grip immediately",
+        "Call it loud and early so teammates know to back off"
+      ],
+      "links": [
+        { "type": "youtube", "url": "https://www.youtube.com/watch?v=MkMYQneG6t0", "label": "How to Practice Catching Fly Balls" },
+        { "type": "youtube", "url": "https://www.youtube.com/watch?v=Lnfgd_ld_CM", "label": "3 Great Drills for Teaching Kids to Catch Fly Balls" }
+      ],
+      "equipment": ["balls", "gloves", "fungo bat"],
+      "tags": ["fielding", "fly-balls", "outfield", "infield", "pop-up"]
+    },
+    {
+      "id": "fielding-outfield-2drills",
+      "name": "Outfield Two-Drill Circuit",
+      "category": "fielding",
+      "subcategory": "fly-balls",
+      "format": "station",
+      "durationMin": 12,
+      "players": "outfield",
+      "description": "Two outfield-specific drills run back-to-back: (1) Closed-eye tracking drill for spatial awareness, (2) On-the-run catching for balls to either side.",
+      "setup": "Split outfielders into two lines. Run each drill for 6 minutes. Coach hits fungoes.",
+      "coachingPoints": [
+        "Read the ball off the bat — hips, not hands",
+        "Crow hop before throwing back to infield",
+        "Stay relaxed — tight muscles mean bad reads on the ball"
+      ],
+      "links": [
+        { "type": "youtube", "url": "https://www.youtube.com/watch?v=sDhB2fAoQsA", "label": "2 Outfield Drills for Catching Fly Balls (Youth Players)" }
+      ],
+      "equipment": ["balls", "gloves", "fungo bat"],
+      "tags": ["fielding", "fly-balls", "outfield", "circuit"]
+    },
+    {
+      "id": "infield-first-base-footwork",
+      "name": "First Base Footwork Drill",
+      "category": "fielding",
+      "subcategory": "footwork",
+      "format": "station",
+      "durationMin": 10,
+      "players": "first-base",
+      "description": "Teaches the three primary footwork patterns for a first baseman: catch-and-step right, catch-and-stretch, and crossover for errant throws. One of the highest-impact drills for 12U teams.",
+      "setup": "Player at first base, coach or partner throws from each infield position. Practice stretching, staying on bag, and coming off bag for short-hops.",
+      "coachingPoints": [
+        "Find the bag with your foot before the throw arrives — don't look down",
+        "Stretch toward the throw, not away from it",
+        "Off-target throws: come off the bag if you have to — an out isn't worth a bad stretch",
+        "Catch first. Tag second. Step off after the catch."
+      ],
+      "links": [
+        { "type": "youtube", "url": "https://www.youtube.com/watch?v=R1sbhgRzneQ", "label": "Youth Baseball 1st Base Footwork and Drills (Antonelli)" },
+        { "type": "youtube", "url": "https://www.youtube.com/watch?v=95B1kSchurQ", "label": "First Base Footwork Drills - Fundamentals (Part 1)" },
+        { "type": "youtube", "url": "https://www.youtube.com/watch?v=fAiEyJOaRbg", "label": "Skills Lesson: First Base Footwork" }
+      ],
+      "equipment": ["balls", "gloves", "first base bag"],
+      "tags": ["fielding", "footwork", "first-base", "position-specific"]
+    },
+    {
+      "id": "team-double-play-feeds",
+      "name": "Double Play Feed Drill",
+      "category": "team",
+      "subcategory": "double-plays",
+      "format": "full-team",
+      "durationMin": 15,
+      "players": "infield",
+      "description": "Focused on the middle infield: SS and 2B practice receiving the feed, pivoting, and firing to first in time. One of the most skill-intensive plays in youth baseball.",
+      "setup": "SS and 2B at their positions. Coach hits ground balls to third or first. Middle infielders practice the feed to second and relay to first. Rotate SS and 2B roles.",
+      "coachingPoints": [
+        "Get to the bag early — you need time to set your feet",
+        "Receive the throw, don't chase it",
+        "Short, quick throw to first — don't wind up",
+        "Pivot type depends on where the throw comes from: inside, outside, or straight on"
+      ],
+      "links": [
+        { "type": "youtube", "url": "https://www.youtube.com/watch?v=5YKs4-5Gbgk", "label": "How to Turn a Double Play — 3 Steps for Youth Players" },
+        { "type": "youtube", "url": "https://www.youtube.com/watch?v=4aWrAxBqd7g", "label": "Double Play Drills with Bill Ripken" },
+        { "type": "youtube", "url": "https://www.youtube.com/watch?v=F0MwVYtimb8", "label": "Double Play Infield Tips and Drills (Antonelli Baseball)" }
+      ],
+      "equipment": ["balls", "gloves", "bases", "fungo bat"],
+      "tags": ["team", "infield", "double-play", "middle-infield"]
+    },
+    {
+      "id": "team-cutoffs-relays",
+      "name": "Cutoffs and Relays",
+      "category": "team",
+      "subcategory": "cutoffs-relays",
+      "format": "full-team",
+      "durationMin": 15,
+      "players": "all",
+      "description": "Full-team drill on proper cutoff positioning and relay throws from outfield to bases. Critical for preventing extra bases.",
+      "setup": "Outfielders field hits, relay to cutoff (SS or 2B depending on situation), who relays to the appropriate base. Walk through scenarios: single to left, single to right, ball in the gap.",
+      "coachingPoints": [
+        "Cutoff gets in line between the outfielder and target base",
+        "Outfielder hits the cutoff at chest height — no rainbow throws",
+        "Cutoff listens for 'cut!' (cut and hold) or 'let it go' (relay through)",
+        "Everyone who isn't the cutoff or relay has a backup responsibility"
+      ],
+      "links": [
+        { "type": "youtube", "url": "https://www.youtube.com/watch?v=w8VUISCLW38", "label": "Cuts and Relay Drill" }
+      ],
+      "equipment": ["balls", "gloves", "bases", "fungo bat"],
+      "tags": ["team", "cutoffs", "relays", "outfield", "communication"]
+    },
+    {
+      "id": "team-outfield-communication",
+      "name": "Outfield Communication Drill",
+      "category": "team",
+      "subcategory": "communication",
+      "format": "full-team",
+      "durationMin": 10,
+      "players": "outfield",
+      "description": "Two or three outfielders practice calling for fly balls between them, establishing who has priority (center fielder rules), and backing each other up.",
+      "setup": "Two outfielders at their positions, 30-40 ft apart. Coach hits pop flies and gap shots forcing both players toward the same ball. One must call it; the other backs up.",
+      "coachingPoints": [
+        "Center fielder has priority over corner outfielders — always",
+        "Call it twice and loud: 'Mine! Mine!'",
+        "If you don't hear a call — keep going. Don't just stop.",
+        "After the catch, communicate where the lead runner is"
+      ],
+      "links": [
+        { "type": "youtube", "url": "https://www.youtube.com/watch?v=dHE3kxsZQsc", "label": "Top 5 Indoor Outfield Drills for Youth Baseball" }
+      ],
+      "equipment": ["balls", "gloves", "fungo bat"],
+      "tags": ["team", "outfield", "communication", "fly-balls"]
+    },
+    {
+      "id": "team-situational-defense",
+      "name": "Situational Defense (Fungo)",
+      "category": "team",
+      "subcategory": "situational",
+      "format": "full-team",
+      "durationMin": 20,
+      "players": "all",
+      "description": "Coach hits with runners on base and announces the situation. Full defense must make the right play. Best closer for any fielding-focused practice.",
+      "setup": "Full defense takes the field. Place 1-2 base runners. Coach hits fungoes and calls the situation before each hit. Rotate runners and fielders throughout.",
+      "coachingPoints": [
+        "Everyone on the field has a job on every play — no spectators",
+        "Back-up responsibilities are as important as the primary play",
+        "Talk it through before the pitch: 'Where am I going with this?'",
+        "Reset after each play — don't carry mistakes into the next one"
+      ],
+      "links": [],
+      "equipment": ["balls", "gloves", "bases", "fungo bat"],
+      "tags": ["team", "situational", "defense", "full-field"]
+    },
+    {
+      "id": "fielding-belly-up",
+      "name": "Belly Up Drill",
+      "category": "fielding",
+      "subcategory": "ground-balls",
+      "format": "pairs",
+      "durationMin": 8,
+      "players": "infield",
+      "description": "Players kneel with their belly toward the sky (back arched) and catch rolled balls while in that position, training the feel of soft hands and glove positioning below the ball.",
+      "setup": "Player lies back arched on their knees. Partner rolls or bounces balls so the fielder must field from underneath. 10 reps, then switch.",
+      "coachingPoints": [
+        "This exaggerates the 'glove below the ball' position",
+        "You can't use your arm to compensate — pure hands work",
+        "Transfer the feeling: this is what 'soft hands' feels like in a normal position too"
+      ],
+      "links": [
+        { "type": "youtube", "url": "https://www.youtube.com/watch?v=X9C52lE4M6Y", "label": "Fun Youth Baseball Drills (Belly Up at 1:10)" }
+      ],
+      "equipment": ["balls", "gloves"],
+      "tags": ["fielding", "ground-balls", "infield", "hands", "soft-hands"]
+    },
+    {
+      "id": "fielding-charging-slow-rollers",
+      "name": "Charging Slow Rollers",
+      "category": "fielding",
+      "subcategory": "ground-balls",
+      "format": "station",
+      "durationMin": 8,
+      "players": "infield",
+      "description": "Teaches infielders to read slow-rolling balls early, charge aggressively, and make an accurate throw on the run. A game-changer for third basemen and corner infielders.",
+      "setup": "Coach rolls slow balls toward the third base line or up the middle. Fielder must charge hard, field on the move, and throw to first. Focus is footwork and timing the fielding step.",
+      "coachingPoints": [
+        "Read it fast — you have less time than you think",
+        "Right-handed fielder: field off the right foot to set up the throw",
+        "Don't field and then try to set — it's one fluid motion",
+        "If it's close, bare-hand it — don't be afraid to use your throwing hand"
+      ],
+      "links": [
+        { "type": "youtube", "url": "https://www.youtube.com/watch?v=kOz3WRPiXr8", "label": "Youth Baseball Fielding Drill Young Players Will Love!" }
+      ],
+      "equipment": ["balls", "gloves", "first base bag"],
+      "tags": ["fielding", "ground-balls", "infield", "charging", "slow-rollers"]
+    },
+    {
+      "id": "team-game-like-efficient",
+      "name": "Game-Like Drills for Efficient Practice",
+      "category": "team",
+      "subcategory": "situational",
+      "format": "full-team",
+      "durationMin": 20,
+      "players": "all",
+      "description": "A high-rep, game-speed team session that strings together fielding, throwing, and baserunning decisions in realistic game situations. Maximizes reps per minute with minimal standing around.",
+      "setup": "Full defense on the field. Coach hits or throws live balls with base runners in place. Players must read the ball, communicate, and execute — just like a real game. Rotate players every 5-7 minutes.",
+      "coachingPoints": [
+        "Every rep should be game speed — no lazy warm-up throws",
+        "Communicate before and after every play: call the ball, call the base",
+        "Rotate positions so everyone gets reps in multiple spots",
+        "Debrief after each round: what did we do well, what needs work?"
+      ],
+      "links": [
+        { "type": "youtube", "url": "https://www.youtube.com/watch?v=sf1Od2dsv2A", "label": "Game-Like Drills for Efficient Baseball Practice (Championship Productions)" }
+      ],
+      "equipment": ["balls", "gloves", "bases", "fungo bat"],
+      "tags": ["team", "game-like", "situational", "defense", "full-field", "high-rep"]
+    },
+    {
+      "id": "team-relay-race",
+      "name": "Relay Race Competition",
+      "category": "team",
+      "subcategory": "throwing",
+      "format": "full-team",
+      "durationMin": 10,
+      "players": "all",
+      "description": "Teams compete to relay a ball from the outfield warning track to home plate in the fewest throws and fastest time. Combines conditioning, throwing accuracy, and fun competition.",
+      "setup": "Split team into two groups. Each group forms a relay line from center field to home. First player fields a ball and starts the relay. The team whose ball reaches home first wins the round.",
+      "coachingPoints": [
+        "This is about quick releases and accurate throws, not arm strength",
+        "Stay in a straight line — off-line throws kill your time",
+        "Fielder who catches faces the next person in line before throwing",
+        "You should be able to do this in 3 throws from the warning track"
+      ],
+      "links": [],
+      "equipment": ["balls", "gloves"],
+      "tags": ["team", "throwing", "relay", "competition", "conditioning"]
+    },
+    {
+      "id": "fielding-triangle-drill",
+      "name": "Triangle Drill",
+      "category": "fielding",
+      "subcategory": "ground-balls",
+      "format": "station",
+      "durationMin": 10,
+      "players": "infield",
+      "description": "A classic infield drill where the fielder moves through three positions — straight on, glove side, and throwing side — fielding a ball at each point of the triangle before returning to start. Builds footwork, lateral range, and consistent glove positioning.",
+      "setup": "Three balls placed in a triangle roughly 6-8 ft apart. Fielder starts at the top. Fields ball 1 straight on, shuffles to ball 2 on the glove side, shuffles to ball 3 on the throwing side. Fielder throws to partner or bucket after each catch.",
+      "coachingPoints": [
+        "Stay in an athletic crouch throughout — don't stand up between balls",
+        "Shuffle feet laterally; avoid crossing your feet",
+        "Same fielding mechanics every rep: funnel, two hands, eyes through the ball",
+        "Great for pre-practice reps without needing a coach to throw"
+      ],
+      "links": [
+        { "type": "youtube", "url": "https://www.youtube.com/watch?v=SOYv4SdHIJI", "label": "Baseball Infield Skills and Drills - The Triangle Drill (Ball State)" },
+        { "type": "youtube", "url": "https://www.youtube.com/watch?v=q1ORurKURFw", "label": "Triangle Drill (GGC Baseball)" }
+      ],
+      "equipment": ["balls", "gloves"],
+      "tags": ["fielding", "ground-balls", "infield", "footwork", "lateral", "self-directed"]
+    },
+    {
+      "id": "fielding-backhand",
+      "name": "Backhand Ground Ball Drill",
+      "category": "fielding",
+      "subcategory": "ground-balls",
+      "format": "station",
+      "durationMin": 10,
+      "players": "infield",
+      "description": "Trains infielders to field balls to their throwing-hand (backhand) side — one of the hardest plays in youth baseball. Focuses on proper crossover step, glove angle, and making a strong throw from a difficult angle.",
+      "setup": "Coach rolls or hits balls to the fielder's backhand side (right side for right-handed). Fielder uses a crossover step, drops the glove low with fingers pointing down, fields the ball, plants, and fires to first.",
+      "coachingPoints": [
+        "Crossover step first — don't reach across your body",
+        "Glove tilted so fingers point DOWN on the backhand, not sideways",
+        "Field off your right foot (RH fielder) to load into the throw",
+        "Short arm action on the throw — there's no time to wind up"
+      ],
+      "links": [
+        { "type": "youtube", "url": "https://www.youtube.com/watch?v=KNqvyewC4Lo", "label": "How To Field a Ground Ball Backhand" },
+        { "type": "youtube", "url": "https://www.youtube.com/watch?v=Ge41_ewiSWk", "label": "Factory 101: Forehand & Backhand Athleticism" }
+      ],
+      "equipment": ["balls", "gloves", "fungo bat"],
+      "tags": ["fielding", "ground-balls", "infield", "backhand", "range"]
+    },
+    {
+      "id": "fielding-forehand",
+      "name": "Forehand Ground Ball Drill",
+      "category": "fielding",
+      "subcategory": "ground-balls",
+      "format": "station",
+      "durationMin": 10,
+      "players": "infield",
+      "description": "Trains infielders to field balls to their glove side (forehand). Works on the crossover step in the opposite direction, keeping the glove out front, and making a throw from open body position.",
+      "setup": "Coach rolls or hits balls to the fielder's glove side (left side for right-handed). Fielder uses a drop-step crossover, extends the glove out in front, fields, and throws to first.",
+      "coachingPoints": [
+        "Get in front of the ball if possible — don't just arm reach",
+        "Glove side: field off your left foot (RH) to square up to first base",
+        "If you can't get in front, field off your right foot and make a quick flip",
+        "Head stays down through the catch — watch it into the glove"
+      ],
+      "links": [
+        { "type": "youtube", "url": "https://www.youtube.com/watch?v=Ge41_ewiSWk", "label": "Factory 101: Forehand & Backhand Athleticism" }
+      ],
+      "equipment": ["balls", "gloves", "fungo bat"],
+      "tags": ["fielding", "ground-balls", "infield", "forehand", "range"]
+    },
+    {
+      "id": "catcher-blocking",
+      "name": "Catcher Blocking Drill",
+      "category": "fielding",
+      "subcategory": "catcher",
+      "format": "station",
+      "durationMin": 10,
+      "players": "catcher",
+      "description": "Teaches catchers to block balls in the dirt with proper technique: drop to knees, chin down, glove between the legs, and body angle to funnel the ball in front of the plate.",
+      "setup": "Catcher in full gear at home plate. Coach or partner bounces balls directly in front, to the left, and to the right. Catcher blocks and locates the ball. Run 10 reps each direction.",
+      "coachingPoints": [
+        "Drop straight down — don't dive forward or backward",
+        "Chin to chest to protect the throat and keep eyes on the ball",
+        "Glove fills the gap between the legs — don't let it sneak through",
+        "After blocking, find the ball immediately and be ready to throw"
+      ],
+      "links": [
+        { "type": "youtube", "url": "https://www.youtube.com/watch?v=htH5NjUxI2M", "label": "Top 5 Blocking Drills for Catchers" }
+      ],
+      "equipment": ["balls", "catcher's gear", "home plate"],
+      "tags": ["fielding", "catcher", "blocking", "position-specific"]
+    },
+    {
+      "id": "catcher-pop-time",
+      "name": "Catcher Pop Time Drill",
+      "category": "throwing",
+      "subcategory": "catcher",
+      "format": "station",
+      "durationMin": 10,
+      "players": "catcher",
+      "description": "Focuses on reducing the time from catch to throw for catchers throwing to second base. Emphasizes quick transfer from glove to throwing hand, efficient footwork, and a compact arm path.",
+      "setup": "Catcher in gear behind the plate. Coach throws live pitches or tosses from the mound. On each pitch, catcher receives, transfers, and throws to second (or a target at 2B distance).",
+      "coachingPoints": [
+        "Transfer happens at the ear — don't drop the ball to the waist first",
+        "Replace your feet: throwing foot replaces catching foot in one quick hop",
+        "Stay low through the throw — standing up kills your accuracy",
+        "Grip the ball correctly in the transfer, not after the throw starts"
+      ],
+      "links": [
+        { "type": "youtube", "url": "https://www.youtube.com/watch?v=PHP6XdJ2-_4", "label": "How To Improve Catcher Pop Time" }
+      ],
+      "equipment": ["balls", "catcher's gear", "bases"],
+      "tags": ["throwing", "catcher", "pop-time", "position-specific"]
+    },
+    {
+      "id": "team-pfp",
+      "name": "Pitcher Fielding Practice (PFP)",
+      "category": "team",
+      "subcategory": "situational",
+      "format": "full-team",
+      "durationMin": 15,
+      "players": "all",
+      "description": "Pitchers practice fielding their position: bunts down the lines, comebackers, covering first base, and fielding slow rollers. One of the most undercoached areas in youth baseball.",
+      "setup": "Pitchers take turns throwing a pitch (or simulate it), then the coach rolls or hits a ball to a specific spot. Pitcher must field it and make the right throw. Run scenarios: bunt to third, bunt to first, comebacker, cover first on a ball to the right side.",
+      "coachingPoints": [
+        "Finish the pitch in fielding position — balanced, head up",
+        "Charge the bunt aggressively — don't wait for it to come to you",
+        "On a comebacker: field, glance at the lead runner, throw to first",
+        "Cover first on any ball hit to the right side — sprint hard to the bag"
+      ],
+      "links": [
+        { "type": "youtube", "url": "https://www.youtube.com/watch?v=aiubYu_eu8Q", "label": "How To: Pitcher's Fielding Practice (PFPs)" },
+        { "type": "youtube", "url": "https://www.youtube.com/watch?v=SZt6EF2k6MY", "label": "10 Types of Pitcher Fielding Practice (PFPs)" }
+      ],
+      "equipment": ["balls", "gloves", "bases"],
+      "tags": ["team", "pitcher", "pfp", "bunt-defense", "situational"]
+    },
+    {
+      "id": "team-bunt-defense",
+      "name": "Bunt Defense with Runners",
+      "category": "team",
+      "subcategory": "situational",
+      "format": "full-team",
+      "durationMin": 15,
+      "players": "all",
+      "description": "Full-team bunt defense drill with runners on base. Covers the two most common bunt scenarios at 12U: runner on first (sacrifice bunt) and runners on first and second (force at third).",
+      "setup": "Full defense + 1-2 base runners. Coach rolls a bunt out front. Defense must charge, communicate who has the ball, and make the correct throw. Walk through assignments first, then go live.",
+      "coachingPoints": [
+        "Pitcher and corner infielders all charge — someone must call it",
+        "Catcher is the quarterback: call the play ('first!', 'third!')",
+        "Third baseman: if you're charging, SS covers third",
+        "On a hard bunt, you have more time than you think — be accurate"
+      ],
+      "links": [
+        { "type": "youtube", "url": "https://www.youtube.com/watch?v=YwM3PZisWD4", "label": "Bunt Defense | Runners on 1st and 2nd" }
+      ],
+      "equipment": ["balls", "gloves", "bases"],
+      "tags": ["team", "bunt-defense", "situational", "communication", "full-field"]
+    },
+    {
+      "id": "baserunning-leads-secondary",
+      "name": "Leads and Secondary Leads",
+      "category": "baserunning",
+      "subcategory": "leads",
+      "format": "full-team",
+      "durationMin": 10,
+      "players": "all",
+      "description": "Teaches proper primary and secondary leads at first, second, and third base. One of the highest-ROI skills for 12U — most runs are lost on baserunning, not hits.",
+      "setup": "Split team across the three bases. Walk through primary lead (2-3 shuffles off bag), secondary lead (2 shuffles on pitcher's motion), and reading the ball off the bat. Coach simulates pitch delivery.",
+      "coachingPoints": [
+        "Primary lead: 2-3 shuffles, balanced athletic stance, weight forward",
+        "Secondary lead: 2 shuffle steps as the pitch crosses the plate",
+        "Read the ball in the dirt: freeze and wait — don't auto-advance",
+        "On a fly ball: tag up at 3B, hold at 1B/2B until you see it caught"
+      ],
+      "links": [
+        { "type": "youtube", "url": "https://www.youtube.com/watch?v=F18_lmOgAzQ", "label": "Youth Practice Plan Series: Leads and Steals" },
+        { "type": "youtube", "url": "https://www.youtube.com/watch?v=IkeyrjyCXTo", "label": "Baseball Baserunner Leads and Reads from Second Base" }
+      ],
+      "equipment": ["bases"],
+      "tags": ["baserunning", "leads", "secondary-lead", "team", "reading-pitcher"]
+    },
+    {
+      "id": "fielding-crow-hop-throw",
+      "name": "Crow Hop Throwing Drill (Outfield)",
+      "category": "fielding",
+      "subcategory": "fly-balls",
+      "format": "station",
+      "durationMin": 10,
+      "players": "outfield",
+      "description": "Teaches outfielders to use a proper crow hop to generate momentum and arm strength on throws from the outfield. One of the most commonly skipped fundamentals at the youth level.",
+      "setup": "Outfielders line up in left-center. Coach hits or tosses fly balls. After the catch, player must execute a crow hop (replace throwing foot with glove-side foot, step, throw) before releasing the ball. Targets a cutoff or second base.",
+      "coachingPoints": [
+        "Catch the ball, then immediately replace your feet — don't stand flat-footed",
+        "Crow hop is a forward skip: it loads your body toward the target",
+        "Throw through the cutoff's chest, not in a high arc",
+        "Point your glove shoulder at the target on release"
+      ],
+      "links": [
+        { "type": "youtube", "url": "https://www.youtube.com/watch?v=ZMuVnmUY2CI", "label": "3 Great Baseball Outfield Drills for Youth Players" }
+      ],
+      "equipment": ["balls", "gloves", "fungo bat"],
+      "tags": ["fielding", "outfield", "crow-hop", "throwing", "fly-balls"]
+    },
+    {
+      "id": "throwing-long-toss",
+      "name": "Long Toss Progression",
+      "category": "throwing",
+      "subcategory": "arm-strength",
+      "format": "pairs",
+      "durationMin": 12,
+      "players": "all",
+      "description": "A structured long toss program that builds arm strength and loosens the shoulder through gradually increasing distance. Best used 2-3x per week rather than every practice.",
+      "setup": "Partners start at 60 ft. Every 2 minutes, take one large step back. Progress to 90, 120, and up to 150 ft if arm feels good. Come back in gradually the same way.",
+      "coachingPoints": [
+        "Never throw long toss on a cold arm — warm up with short catch first",
+        "At max distance, a slight arc is fine — don't strain to keep it flat",
+        "Come back in at the same pace you went out",
+        "If arm is fatigued or sore, stop early — this is a tool, not a test"
+      ],
+      "links": [
+        { "type": "youtube", "url": "https://www.youtube.com/watch?v=jy0UwFdlw9M", "label": "A Throwing Routine For All Youth Baseball Players" }
+      ],
+      "equipment": ["balls", "gloves"],
+      "tags": ["throwing", "arm-strength", "long-toss", "pairs", "arm-care"]
+    },
+    {
+      "id": "fielding-infield-rapid-fire",
+      "name": "Rapid-Fire Infield Reps",
+      "category": "fielding",
+      "subcategory": "ground-balls",
+      "format": "station",
+      "durationMin": 12,
+      "players": "infield",
+      "description": "High-rep infield station where the coach hits 3-4 balls in quick succession to one fielder before rotating. Builds focus under fatigue and forces players to reset quickly between reps — great late in practice when attention drifts.",
+      "setup": "Fielder at position. Coach hits 3 balls in a row, each a different type: straight on, backhand, forehand. Fielder throws each to first or a partner. Coach immediately goes to the next player.",
+      "coachingPoints": [
+        "Reset your feet between each ball — don't get lazy",
+        "This isn't about perfection, it's about staying locked in when tired",
+        "Communicate after each catch even in rapid fire",
+        "The third ball is always the test — that's when focus breaks"
+      ],
+      "links": [
+        { "type": "youtube", "url": "https://www.youtube.com/watch?v=IYhBcLcFy7I", "label": "How To Work Through A Ground Ball + 4 Drills" }
+      ],
+      "equipment": ["balls", "gloves", "fungo bat"],
+      "tags": ["fielding", "ground-balls", "infield", "rapid-fire", "high-rep", "focus"]
+    }
+  ]
+}
