@@ -4,8 +4,10 @@ import Sidebar from './components/Sidebar';
 import Calendar from './pages/Calendar';
 import Kanban from './pages/Kanban';
 import Research from './pages/Research';
+import ResearchDetail from './pages/ResearchDetail';
 import Scripture from './pages/Scripture';
 import NASCARTracks from './pages/NASCARTracks';
+import NASCARTrackNotes from './pages/NASCARTrackNotes';
 import NASCARLineups from './pages/NASCARLineups';
 import NASCARAnalysis from './pages/NASCARAnalysis';
 import NASCAR from './pages/NASCAR';
@@ -26,10 +28,12 @@ function App() {
             <Route path="/calendar" element={<Calendar />} />
             <Route path="/kanban" element={<Kanban />} />
             <Route path="/research" element={<Research />} />
+            <Route path="/research/:id" element={<ResearchDetail />} />
             <Route path="/scripture" element={<Scripture />} />
             <Route path="/nascar" element={<NASCARTracks />} />
             <Route path="/nascar/lineups" element={<NASCARLineups />} />
             <Route path="/nascar/analysis" element={<NASCARAnalysis />} />
+            <Route path="/nascar/track-notes" element={<NASCARTrackNotes />} />
             <Route path="/nascar/track/:track" element={<NASCAR />} />
             <Route path="/baseball" element={<Baseball />} />
             <Route path="/baseball/position-drills" element={<BaseballPositionDrills />} />

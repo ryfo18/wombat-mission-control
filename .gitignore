@@ -37,6 +37,12 @@ Thumbs.db
 *.db
 wombat.db
 
+# Personal config (calendar IDs, etc.)
+calendar_config.py
+
+# Vite cache
+frontend/.vite/
+
 # Misc
 .DS_Store
 .env

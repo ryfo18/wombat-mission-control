@@ -1,5 +1,28 @@
 import React, { useEffect, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import api from '../api';
+
+const getCardExcerpt = (text, maxChars = 200) => {
+  if (!text) return '';
+  const lines = text.split('\n')
+    .map(line => line
+      .replace(/^#{1,6}\s+.*$/, '')         // drop heading lines entirely
+      .replace(/\*\*(.+?)\*\*/g, '$1')
+      .replace(/\*(.+?)\*/g, '$1')
+      .replace(/`(.+?)`/g, '$1')
+      .replace(/^\s*[-*+]\s+/g, '\u2022 ')
+      .replace(/^\s*\d+\.\s+/g, '\u2022 ')
+      .replace(/\[(.+?)\]\(.+?\)/g, '$1')
+      .replace(/^>\s+/, '')
+      .replace(/\|.+\|/, '')
+      .trim()
+    )
+    .filter(line => line.length > 0);
+
+  const joined = lines.join('  \n');
+  if (joined.length <= maxChars) return joined;
+  return joined.slice(0, maxChars).replace(/\s+\S*$/, '') + '\u2026';
+};
 
 const Research = () => {
   const [researchItems, setResearchItems] = useState([]);
@@ -13,6 +36,7 @@ const Research = () => {
     url: ''
   });
   const [loading, setLoading] = useState(true);
+  const navigate = useNavigate();
 
   useEffect(() => {
     const loadResearch = async () => {
@@ -172,12 +196,12 @@ const Research = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {filteredResearch.length > 0 ? (
           filteredResearch.map(item => (
-            <div key={item.id} className="bg-slate-800 rounded-lg p-6">
+            <div key={item.id} className="bg-slate-800 rounded-lg p-6 cursor-pointer hover:bg-slate-700 transition-colors" onClick={() => navigate(`/research/${item.id}`)}>  
               <div className="flex justify-between items-start mb-3">
                 <h3 className="font-semibold text-lg">{item.title}</h3>
                 <span className="px-2 py-1 bg-indigo-500 text-xs rounded">{item.topic}</span>
               </div>
-              <p className="text-slate-400 mb-4">{item.summary}</p>
+              <p className="text-slate-400 mb-4 text-sm whitespace-pre-line leading-relaxed">{getCardExcerpt(item.summary)}</p>
               {item.url && (
                 <div className="mb-4">
                   <a href={item.url} target="_blank" rel="noopener noreferrer" className="text-indigo-400 hover:text-indigo-300">
