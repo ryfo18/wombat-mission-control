@@ -1,0 +1,93 @@
+{
+  "tracks": [
+    {
+      "id": "dover",
+      "name": "Dover Motor Speedway",
+      "nickname": "The Monster Mile",
+      "type": "short-oval",
+      "length": "1.0 mile",
+      "surface": "Concrete",
+      "banking": "24° turns / 5° straights",
+      "totalLaps": 400,
+      "emoji": "🏰",
+      "dfsLean": "dominator",
+      "dfsLeanNote": "Dominators strongly favored. Track position is nearly everything here — the high-banked concrete makes passing brutally hard. Elite cars up front stay there and lap leaders rack up massive DK points.",
+      "comparable": ["Bristol"],
+      "keyPatterns": [
+        "Laps led are highly concentrated — typically 2-4 drivers account for 300+ of 400 laps",
+        "Winners almost always start top 10; deep PD charges are rare without major attrition",
+        "Hard on tires and equipment — late-race cautions are common, which can shuffle the field",
+        "Concrete surface = less tire falloff than asphalt, rewards consistent speed over tire management"
+      ],
+      "dfsStrategy": {
+        "cash": "Stack the clear dominator. At Dover, one driver often leads 100+ laps — that's 25+ DK pts from laps led alone. Don't fade the chalk here; just make sure you own enough of the dominator.",
+        "gpp": "Dominator-first build still applies. Look for secondary dominators at mid-range salary to differentiate. PD plays can work for value roster spots but don't anchor a GPP around them — the upside ceiling is too low relative to a 100-lap leader."
+      },
+      "pdNotes": "PD is mostly a bonus, not a strategy. Best PD spot is a highly-rated driver who qualifies poorly (15-25th) and runs clean — think Larson in 2024 (+19 spots, 2nd place). But even that play had 39 laps led layered in. Pure PD with 0 laps led rarely scores well enough at Dover.",
+      "formatNotes": [
+        {
+          "year": 2026,
+          "event": "All-Star Race",
+          "note": "Special 3-segment format: 75 laps (Seg 1) + 75 laps (Seg 2, inverted top-26 from Seg 1) + 200 laps (Seg 3, top 26 drivers only). 19 drivers locked into Seg 3 automatically; remaining spots filled by combined Seg 1+2 performance. Non-locked drivers are GPP-only — too much variance to use in cash. DK uses overall qualifying grid for PD, not segment restart positions."
+        }
+      ],
+      "historicalWinners": [
+        { "year": 2025, "winner": "Denny Hamlin", "startPos": null, "lapsLed": null, "note": "Won July 2025 points race" },
+        { "year": 2024, "winner": "Denny Hamlin", "startPos": 6, "lapsLed": 136, "note": "Led 136 of 400 laps, held off Larson by 0.256s" },
+        { "year": 2023, "winner": "Martin Truex Jr.", "startPos": 17, "lapsLed": 69, "note": "One of the rare mid-pack-to-win results at Dover" },
+        { "year": 2021, "winner": "Alex Bowman", "startPos": 16, "lapsLed": null, "note": "Another mid-pack start winner" }
+      ],
+      "keyDriversToWatch": [
+        { "driver": "Denny Hamlin", "note": "The Dover king. Historically dominant — expect 80%+ pLL projections when healthy. Low ownership relative to talent is a recurring theme." },
+        { "driver": "Kyle Larson", "note": "Strong Dover car but tends to be overrostered. Watch ownership vs. his pLL gap." },
+        { "driver": "Martin Truex Jr.", "note": "Historically strong here, though now retired (2024)." }
+      ],
+      "fadeList": [
+        "Drivers starting outside top 25 with no historical Dover speed",
+        "Road course specialists — concrete ovals are a completely different skill set",
+        "Anyone with 35%+ ownership and <10% pLL (classic All-Star Race trap: Preece, SVG in 2026)"
+      ]
+    },
+    {
+      "id": "watkins-glen",
+      "name": "Watkins Glen International",
+      "nickname": "The Glen",
+      "type": "road-course",
+      "length": "2.45 miles",
+      "surface": "Asphalt",
+      "banking": "Flat / slight camber on corners",
+      "totalLaps": 90,
+      "emoji": "🌀",
+      "dfsLean": "dominator",
+      "dfsLeanNote": "Road courses skew chalk. Front-runners dominate because track position is hard to overcome — only 2 winners from outside top 10 in the last decade at The Glen. Cash strategies work well; contrarian GPP edges are smaller than at ovals.",
+      "comparable": ["COTA", "Sonoma"],
+      "keyPatterns": [
+        "Track position matters more than at most ovals — limited passing zones",
+        "Only 2 winners from outside top 10 in the last decade",
+        "Road course specialists (SVG, Montoya guests) can spike ownership — analyze if the pace actually backs it up",
+        "Pit strategy can create massive position swings — track position after pit cycles is a major DK score driver",
+        "Weather matters more than at ovals — rain brings massive chaos and randomness"
+      ],
+      "dfsStrategy": {
+        "cash": "Play the fastest cars that also qualify well. Fade road course 'specialists' if their ownership is spiked beyond their realistic finishing range. Keep 1-2 mid-tier drivers who have shown Glen pace before.",
+        "gpp": "Harder to differentiate at road courses. Look for elite drivers who qualify poorly due to strategy or issues — they'll have PD upside plus potential to make a run. Pit strategy chaos can create massive point swings."
+      },
+      "pdNotes": "PD is more viable here than at Dover but still secondary to finishing position and laps led. Pit strategy-driven PD (driver pits under green, gets track position) is the most common mechanism. Deep-field PD charges from 25+ back are still rare.",
+      "formatNotes": [],
+      "historicalWinners": [
+        { "year": 2025, "winner": "TBD", "startPos": null, "lapsLed": null, "note": "Check current season results" },
+        { "year": 2024, "winner": "Chase Elliott", "startPos": null, "lapsLed": null, "note": "" },
+        { "year": 2023, "winner": "Shane van Gisbergen", "startPos": null, "lapsLed": null, "note": "SVG's Cup debut win — the road course specialist effect" }
+      ],
+      "keyDriversToWatch": [
+        { "driver": "Chase Elliott", "note": "Elite road course driver, historically dominant at The Glen." },
+        { "driver": "Shane van Gisbergen", "note": "Road course specialist — big ownership spikes. Must verify if pace data backs it up at each specific course." },
+        { "driver": "Christopher Bell", "note": "Consistent road course performer, often underrated." }
+      ],
+      "fadeList": [
+        "Pure oval specialists with no road course results",
+        "Any 'specialist' driver with 35%+ ownership but only 5-10 laps led upside — the ownership premium eats into value"
+      ]
+    }
+  ]
+}

@@ -106,6 +106,120 @@
         }
       ],
       "coachNotes": "3 coaches needed for station rotation (0:15-0:45). Assign your most experienced coach to Station 2 (backhand) — it needs the most technical feedback. After practice, only need 1 coach to stay for the 2B/SS optional block."
+    },
+    {
+      "id": "2026-05-15-cutoffs-hitting",
+      "title": "Cutoffs, Relays & Hitting Night",
+      "date": "2026-05-15",
+      "durationMin": 105,
+      "focusAreas": ["Fundamental Stations", "Relay Race Game", "Cutoffs with Runner on 2nd", "Hitting: Tee / Front Toss / Bullpen"],
+      "summary": "Station-based fundamentals to open, then two focused team defense blocks on cutoffs and relay mechanics, closing with a hitting rotation. Four coaches running simultaneous stations during the fundamentals block.",
+      "notes": "4 coaches for station block (0:15–0:45). Relay Race Game needs full team. Cutoff block needs 1–2 volunteer baserunners.",
+      "blocks": [
+        {
+          "timeLabel": "5:15 – 5:20",
+          "activity": "Dynamic Warm-Up",
+          "durationMin": 5,
+          "details": "Full team on outfield grass. Jog, high knees, butt kicks, shuffles, arm circles (10 each direction forward/back), torso twists, wrist/finger stretches.",
+          "drillLinks": [
+            { "url": "https://www.youtube.com/watch?v=ljYiuTdErds", "label": "Youth Baseball Practice Warm-Up Routine" },
+            { "url": "https://www.youtube.com/watch?v=2NLNCc06X_8", "label": "5 Dynamic Stretches for Baseball Warmup" }
+          ],
+          "coachingPoints": [
+            "Controlled — not a race",
+            "Big arm circles, both directions",
+            "Finish with wrist and finger stretches"
+          ]
+        },
+        {
+          "timeLabel": "5:20 – 5:30",
+          "activity": "Partner Throwing Progression",
+          "durationMin": 10,
+          "details": "Pairs start at 30 ft, back up to 60 ft, then 90 ft. Four-seam grip, step toward target, full follow-through every rep.",
+          "drillLinks": [
+            { "url": "https://www.youtube.com/watch?v=LtzwCrthlTY", "label": "Youth Baseball: Simple Throwing Progressions" }
+          ],
+          "coachingPoints": [
+            "Four-seam grip every throw",
+            "Step toward your target — no lazy lob throws",
+            "Follow through: throwing hand finishes near opposite hip",
+            "Catch with two hands when possible"
+          ]
+        },
+        {
+          "timeLabel": "5:30 – 6:00",
+          "activity": "Fundamental Stations — 4 Simultaneous (10 min each, rotate 3 times)",
+          "durationMin": 30,
+          "details": "Split players into 4 groups. Each coach runs one station. Groups rotate on whistle every 10 minutes. Adjust group sizes if needed — outfield station can handle larger groups.\n\n📍 STATION 1 — Ground Ball Fundamentals (Coach 1)\nAthletic ready position, approach and read, field out front. Mix straight-on, slow rollers, and short hops. Throw to a partner or bucket after each rep.\n\n📍 STATION 2 — Throwing Mechanics (Coach 2)\nStart on one knee: wrist snap and arm path only. Move to standing no-step throws, then full throws. Emphasize four-seam grip, elbow up, hip-shoulder separation, follow through.\n\n📍 STATION 3 — Fly Ball / Drop Step (Coach 3)\nCoach calls direction or signals deep. Player drop steps, tracks over the shoulder, catches moving forward. Crow hop throw back every rep. Outfielders + any overflow infielders.\n\n📍 STATION 4 — Crow Hop & Relay Throw (Coach 4)\nPlayer fields a rolled ball, executes crow hop, and fires a low throw to a target at 70–80 ft. Focus on the footwork pattern (catch → replace step → hop → throw) and keeping the throw chest-to-knee height.",
+          "drillLinks": [
+            { "url": "https://www.youtube.com/watch?v=OTP9eUBsqmk", "label": "Station 1: How to Field a Ground Ball in 3 Easy Steps" },
+            { "url": "https://www.youtube.com/watch?v=d3QApCrFm5k", "label": "Station 2: Baseball Throwing Drills Youth Players MUST Be Doing" },
+            { "url": "https://www.youtube.com/watch?v=ZMuVnmUY2CI", "label": "Station 3: Outfield Drills for Youth Players" },
+            { "url": "https://www.youtube.com/watch?v=LtzwCrthlTY", "label": "Station 4: Crow Hop & Relay Throw Mechanics" }
+          ],
+          "coachingPoints": [
+            "Station 1: Field out front, funnel to the belly button, soft hands",
+            "Station 2: Start on one knee — no body, just wrist snap — then build up to full throw",
+            "Station 3: Drop step FIRST, then track. No backpedaling ever.",
+            "Station 4: Crow hop pattern: catch → replace → hop → throw. Low throw, no rainbows.",
+            "Rotate on whistle. Reset and ready before the next rep."
+          ]
+        },
+        {
+          "timeLabel": "6:00 – 6:15",
+          "activity": "Relay Race Game — Fence to Home",
+          "durationMin": 15,
+          "details": "Competition: split into 2 teams. Ball starts at the warning track fence (or deepest outfield). Players must relay the ball home using proper cutoff positioning — no skipping the cutoff, no rainbow throws. Time each team from first touch at the fence to the ball reaching home plate. 3 rounds; fastest cumulative time wins.\n\nSetup: each team picks its relay chain (outfielder → SS/2B relay → home). Coach or player at fence rolls/throws the starting ball. Timer starts when the outfielder touches it.\n\nVariation: add a baserunner rounding third on the throw — now the defense has to actually cut or let it go based on where the runner is.",
+          "drillLinks": [
+            { "url": "https://www.youtube.com/watch?v=w8VUISCLW38", "label": "Cuts and Relay Drill" },
+            { "url": "https://www.youtube.com/watch?v=Yle6R1-flA8", "label": "Little League Cuts and Relays Done Right" }
+          ],
+          "coachingPoints": [
+            "Cutoff must be in a straight line from fence to home — they set the line, the OF throws to them",
+            "Throw LOW: a low throw gets there faster than a rainbow",
+            "Cutoff: turn to your glove side on the catch for the quickest release",
+            "If you let the ball go past the relay man, your team gets a time penalty",
+            "Competition reveals bad habits quickly — fix them between rounds, not during"
+          ]
+        },
+        {
+          "timeLabel": "6:15 – 6:40",
+          "activity": "Cutoffs with Runner on 2nd — Overview then Live",
+          "durationMin": 25,
+          "details": "First 8–10 min: walk-through, no live baserunners. Coach hits or throws to each outfield zone while players walk to their cutoff positions. Stop and correct alignment, verbal calls, and backup assignments before going live.\n\nScenarios to cover:\n• Single to left field, runner on 2B scoring\n• Single to right field, runner on 2B scoring\n• Ball in the gap (potential double), runner on 2B — double cutoff\n\nSS takes throws from LF side; 2B takes throws from RF side.\n3B or catcher makes the verbal call: 'CUT TWO!', 'CUT HOME!', or silence = relay through.\n\nLast 15 min: live baserunners. Run through all 3 scenarios with real runners. Score: 1 pt defense if runner is held or thrown out. 1 pt offense if runner scores or advances.",
+          "drillLinks": [
+            { "url": "https://www.youtube.com/watch?v=Yle6R1-flA8", "label": "Little League Cuts and Relays Done Right" },
+            { "url": "https://www.youtube.com/watch?v=cfQzb1x1MRw", "label": "How to Perform a Cut-Off Play // Youth Baseball" },
+            { "url": "https://probaseballinsider.com/baseball-instruction/relay-and-cut-off-fundamentals/", "label": "Pro Baseball Insider: Relay & Cutoff Fundamentals" }
+          ],
+          "coachingPoints": [
+            "Cutoff man: get in a straight line. Move your feet until the outfielder, you, and the target base are all in a line.",
+            "Outfielder: throw through the cutoff at chest height — don't lob it over their head",
+            "Verbal caller (3B/C): commit LOUD and EARLY — hesitation kills the play",
+            "'CUT HOME!' = cut it and fire home. 'CUT TWO!' = cut and hold at second. Silence = let it go through",
+            "Runner on 2B with a single to left: SS is cutoff, catcher makes the call",
+            "Runner on 2B with a single to right: 2B is cutoff, first base coach or catcher makes the call",
+            "Everyone has a backup job — P covers home area on throws, 3B covers 3B, 1B covers 1B"
+          ]
+        },
+        {
+          "timeLabel": "6:40 – 7:00",
+          "activity": "Hitting Block — Tee / Front Toss / Bullpen",
+          "durationMin": 20,
+          "details": "Split into 3 simultaneous stations with coaches rotating supervision. Run until 7:00.\n\n🏏 STATION A — Tee Work (self-supervised with check-ins)\nHitters work off the tee focusing on contact point, hip rotation, and extension. 20 cuts, break, 20 more.\n\n🏏 STATION B — Front Toss (Coach or parent volunteer)\nCoach sits 15–20 ft away, tosses underhand. Hitters focus on tracking and driving the ball up the middle. 10 tosses per round, quick rotation.\n\n🏏 BULLPEN — Mound/Live Arm Pitchers (separate area)\nA handful of players who need mound time get organized bullpen reps while the hitting stations run. Catcher receives; coach observes mechanics and count situations if needed.",
+          "drillLinks": [
+            { "url": "https://www.youtube.com/watch?v=YhOFUWFGjMM", "label": "Tee Work: 3 Must-Do Batting Tee Drills" },
+            { "url": "https://www.youtube.com/watch?v=2xX6uWyEuKc", "label": "Front Toss: How to Throw Front Toss (Baseball Rebellion)" }
+          ],
+          "coachingPoints": [
+            "Tee: contact point is out in front — if the ball goes foul, they're late; if it goes to opposite field weakly, they're early",
+            "Front toss: hands through the ball, not around it — punish mistakes down the middle",
+            "Bullpen: pitchers throw with intent. Don't just lob it for strikes — work your pitches.",
+            "Keep lines short and moving — standing around kills it"
+          ]
+        }
+      ],
+      "coachNotes": "4 coaches needed for the station block (5:30–6:00). Relay Race Game can be run by 1 coach with a stopwatch. Cutoff block benefits from 1 coach as the hitter + 1 floating to correct alignment. For the hitting block, a parent volunteer at front toss frees coaches for bullpen and tee check-ins."
     }
   ]
 }

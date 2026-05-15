@@ -3,24 +3,17 @@ from datetime import datetime, timedelta, timezone
 import subprocess
 import json
 import asyncio
+import os
 
 router = APIRouter()
 
-CALENDARS = {
-    "Family Stuff": "fvjbgorcnoar050nuno98m1dak@group.calendar.google.com",
-    "SC Wave 2015 Girls Pre-GA": "ccfkp03urhdfr72e61pvh7a9u46dcnce@import.calendar.google.com",
-    "Merton Mavericks Blue 12U": "ho2u8a2e3fjdqb5qiklsb59sv2lafron@import.calendar.google.com",
-    "Merton Fillies 8U": "iigtnbti6emqfq62oco15defq5ri7f36@import.calendar.google.com",
-    "Merton Fillies U10 Blue": "782b8d0ded3u37bn7cdnvmjopbn1h1cg@import.calendar.google.com",
-    "US Holidays": "en.usa#holiday@group.v.calendar.google.com",
-}
-
-SPORTS_CALENDARS = {
-    "SC Wave 2015 Girls Pre-GA",
-    "Merton Mavericks Blue 12U",
-    "Merton Fillies 8U",
-    "Merton Fillies U10 Blue",
-}
+# Calendar IDs are loaded from calendar_config.py (gitignored).
+# Copy calendar_config.example.py to calendar_config.py and fill in your IDs.
+try:
+    from calendar_config import CALENDARS, SPORTS_CALENDARS
+except ImportError:
+    CALENDARS = {}
+    SPORTS_CALENDARS = set()
 
 
 def fetch_calendar_events(calendar_id: str, cal_name: str, from_iso: str, to_iso: str):
@@ -116,7 +109,6 @@ def get_carpool_recommendations(days: int = Query(default=7, ge=1, le=30)):
     conflicts = []
     for date, events in sorted(by_date.items()):
         if len(events) > 1:
-            # Multiple sports events on the same day = potential carpool need
             event_summaries = [
                 f"{e.get('summary', '?')} ({e.get('calendar', '?')}) at {e.get('start', {}).get('dateTime', '')[:16].replace('T', ' ')}"
                 for e in events

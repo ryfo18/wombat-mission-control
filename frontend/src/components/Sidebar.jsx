@@ -158,6 +158,18 @@ const Sidebar = () => {
                   📰 Analysis
                 </NavLink>
                 <NavLink
+                  to="/nascar/track-notes"
+                  className={() =>
+                    `block px-3 py-1.5 rounded-md text-xs font-medium ${
+                      location.pathname === '/nascar/track-notes'
+                        ? 'text-indigo-300 bg-indigo-900/30'
+                        : 'text-slate-400 hover:bg-slate-800 hover:text-white'
+                    }`
+                  }
+                >
+                  🗺️ Track Notes
+                </NavLink>
+                <NavLink
                   to="/nascar"
                   className={() =>
                     `block px-3 py-1.5 rounded-md text-xs font-medium ${
